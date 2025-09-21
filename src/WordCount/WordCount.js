@@ -8,7 +8,7 @@
             var wordCount = words ? words.length : 0;
             
             var wordCountElement = document.createElement('span');
-            wordCountElement.innerHTML = '<strong>Word count:</strong> ' + wordCount;
+            wordCountElement.innerHTML = '<br><br><hr><strong>Word count:</strong> ' + wordCount;
             postBody.parentNode.insertBefore(wordCountElement, postBody.nextSibling); // Insert after post body
         }
     }
